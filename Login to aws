@@ -1,0 +1,2 @@
+ssh -i keypair.pem ubuntu@publicip
+###if you launch amazon linux or redhat linux the username will be ec2-user
