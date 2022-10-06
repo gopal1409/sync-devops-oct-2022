@@ -1,2 +1,13 @@
 ssh -i keypair.pem ubuntu@publicip
 ###if you launch amazon linux or redhat linux the username will be ec2-user
+###once we launch the server we will be a root user install an apache server and try to access the same
+sudo -i
+1  apt-get update
+    2  apt install apache2
+    3  systemctl status apache2
+    4  systemctl stop apache2
+   
+    6  systemctl status apache2
+    7  systemctl start apache2
+    8  systemctl enable apache2
+    9  curl localhost
